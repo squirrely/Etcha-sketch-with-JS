@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sketch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/cs/styles.css">
+  </head>
+  <body>
+    
+    <div id="title">
+      <h1>Let's Build A Etch-a-Sketch With JavaScript!</h1>
+    </div>
+    
+    <hr>
+    
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="settings center-block col-xs-6">
+          <button class="btn btn-danger" id="reset" type="button">Reset</button>
+          <button id="wht" type="button" class="btn btn-default">Black and White</button>
+          <button id="wildCard" type="button" class="btn btn-warning">Wild Card</button>
+          <button id="rCg" type="button" class="btn btn-info">Sweet RCG!!</button>
+        </div>
+        <div class="settings center-block col-xs-6">
+          <button id="sub" type="button" class="btn btn-primary">Submit</button>
+          <input id="size" type="text" value="Change the grid size..."/>
+          <button id="def" type="button" class="btn btn-danger">Default</button>
+        </div>
+      </div> 
+    </div>
+    
+    <div class="container">
+      <div class="gridSpace">
+        <table id="myTable">
+       
+      </table>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="styles/js/sketch.js"></script>
+    
+  </body>
+</html>
+  
